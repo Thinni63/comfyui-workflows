@@ -99,7 +99,7 @@ See `examples/` folder in this repo for before/after comparisons (side-by-side +
 
 ## Links
 
-- **Civitai Listing:** https://civitai.com/models/PLACEHOLDER
+- **Civitai Listing:** https://civitai.red/models/2750373/seedvr2-batch-upscaler-sleep-on-it-wake-up-4k?modelVersionId=3094090
 - **GitHub Repo:** https://github.com/Thinni63/comfyui-workflows/tree/main/seedvr2-batch-upscale
 - **SeedVR2 Paper/Model:** https://huggingface.co/ByteDance-Seed/SeedVR2-7B
 
