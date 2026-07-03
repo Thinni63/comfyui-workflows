@@ -34,18 +34,23 @@ Whole-folder image upscaler for ComfyUI using SeedVR2, the SOTA diffusion-based 
 ## Download Links
 
 **Primary (7B fp16 — recommended):**
-- https://huggingface.co/ByteDance-Seed/SeedVR2-7B
+- `seedvr2_ema_7b_fp16.safetensors` — https://huggingface.co/numz/SeedVR2_comfyUI/blob/main/seedvr2_ema_7b_fp16.safetensors
+- `ema_vae_fp16.safetensors` — https://huggingface.co/numz/SeedVR2_comfyUI/blob/main/ema_vae_fp16.safetensors
 
-**Faster variants:**
-- https://huggingface.co/numz/SeedVR2_comfyUI (7B fp8, 3B fp8)
-- https://huggingface.co/ByteDance-Seed/SeedVR2-3B (3B fp16)
+**Faster variants (7B fp8):**
+- `seedvr2_ema_7b_fp8_e4m3fn.safetensors` — https://huggingface.co/numz/SeedVR2_comfyUI/blob/main/seedvr2_ema_7b_fp8_e4m3fn.safetensors
+- `ema_vae_fp16.safetensors` — https://huggingface.co/numz/SeedVR2_comfyUI/blob/main/ema_vae_fp16.safetensors
+
+**3B variants:**
+- `seedvr2_ema_3b_fp16.safetensors` — https://huggingface.co/numz/SeedVR2_comfyUI/blob/main/seedvr2_ema_3b_fp16.safetensors
+- `ema_vae_fp16.safetensors` — https://huggingface.co/numz/SeedVR2_comfyUI/blob/main/ema_vae_fp16.safetensors
 
 ## Hardware Requirements
 
 | Config | VRAM | System RAM | Notes |
 |--------|------|-----------|-------|
 | 7B fp16 (default) | ~16 GB | 33 GB offloaded → 64 GB total recommended | Highest quality |
-| 7B fp8 | ~9 GB | 18 GB offloaded → 32 GB OK | 30% faster, quality ~= fp16 |
+| 7B fp8 | ~9 GB | 18 GB offloaded → 32 GB OK | ~30% faster (estimated, not yet benchmarked), quality ~= fp16 |
 | 3B | ~16 GB | No offload needed | Fastest, fits 16 GB native |
 
 **Tested:** RTX 5080, Windows 11, CUDA 12.1+
@@ -60,11 +65,12 @@ Whole-folder image upscaler for ComfyUI using SeedVR2, the SOTA diffusion-based 
 
 ## Before/After Examples
 
-*Examples will be added after verification run (Phase B).*
+See `examples/` folder in this repo for before/after comparisons (side-by-side + 100% crop detail):
 
-- Example 1: Small input (512px) → restoration detail recovery
-- Example 2: Well-lit portrait → 4K sharpness
-- Example 3: Texture/fabric → detail preservation
+- `hero1_portrait_skinhair.png` — portrait, skin/hair detail
+- `hero2_mesh_fabric.png` — fabric/texture detail
+- `hero3_foliage_detail.png` — foliage/detail recovery
+- `hero4_small_input_restore.png` — small input (640×800) → 4K restoration
 
 ## Troubleshooting
 
