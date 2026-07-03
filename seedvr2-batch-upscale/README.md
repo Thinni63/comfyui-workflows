@@ -70,7 +70,9 @@ See `examples/` folder in this repo for before/after comparisons (side-by-side +
 - `hero1_portrait_skinhair.png` — portrait, skin/hair detail
 - `hero2_mesh_fabric.png` — fabric/texture detail
 - `hero3_foliage_detail.png` — foliage/detail recovery
-- `hero4_small_input_restore.png` — small input (640×800) → 4K restoration
+- `hero4_wet_skin_detail.png` — wet skin detail recovery
+- `hero5_robe_neckline_detail.png` — robe/neckline fabric detail
+- `hero6_bikini_skin_detail.png` — bikini/skin detail recovery
 
 ## Troubleshooting
 
