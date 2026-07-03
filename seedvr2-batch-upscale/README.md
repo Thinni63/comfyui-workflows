@@ -1,4 +1,4 @@
-# SeedVR2 Batch Upscaler — ComfyUI Workflow
+# SeedVR2 Batch Upscaler — Sleep On It, Wake Up 4K
 
 **Drop a folder, come back to 4K. ComfyUI batch image upscaler powered by SeedVR2 (ByteDance).**
 

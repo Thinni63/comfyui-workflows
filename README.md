@@ -24,7 +24,7 @@ I share ComfyUI workflows I actually run daily for stock footage and image gener
 | 🎬 | [LTX-2.3 Image-to-Video — QwenVL Auto-Prompt, No Drift](./ltx-2.3-i2v-auto/) | Video | ~14 GB | [156 downloads](https://civitai.com/user/TP_AI_63) |
 | 🖼️ | [Krea2 Turbo — QwenVL Dual-Mode](./krea2-turbo-dual/) | Image | ~8 GB | [182 downloads](https://civitai.com/user/TP_AI_63) |
 | 🖼️ | [Z-Image-Turbo — QwenVL Dual-Mode Auto-Prompt](./zimage-turbo/) | Image | ~13 GB | [View listing](https://civitai.red/models/2742740/z-image-turbo-qwenvl-dual-mode-auto-prompt) |
-| ⬆️ | [SeedVR2 Batch Upscaler — Whole-Folder 4K Upscale](./seedvr2-batch-upscale/) | Upscale | ~16 GB | [View listing](https://civitai.com/user/TP_AI_63) |
+| ⬆️ | [SeedVR2 Batch Upscaler — Sleep On It, Wake Up 4K](./seedvr2-batch-upscale/) | Upscale | ~16 GB | [View listing](https://civitai.com/user/TP_AI_63) |
 
 ## Quick Start
 
